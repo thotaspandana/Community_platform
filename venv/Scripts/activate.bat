@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\ASUS\Documents\Community-platform-main\venv
+=======
+set VIRTUAL_ENV=C:\Users\ASUS\Desktop\my project1\venv
+>>>>>>> 28bf2c92b216625eeaf9fd7cf5b34427103142ae
 
 if not defined PROMPT set PROMPT=$P$G
 
