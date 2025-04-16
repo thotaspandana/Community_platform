@@ -1,0 +1,68 @@
+.stories-container {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.story-items {
+  display: flex;
+  align-items: flex-start;
+  overflow-x: auto;
+}
+
+.story-card {
+  width: 120px;
+  height: 200px;
+  border-radius: 12px;
+  background-color: #f0f2f5;
+  margin-right: 12px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.create-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.story-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.create-story-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e6eb;
+}
+
+.create-label {
+  font-size: 14px;
+  color: #050505;
+}
+
+.story-user-name {
+  background: #fff;
+  padding: 4px 0;
+  font-size: 13px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

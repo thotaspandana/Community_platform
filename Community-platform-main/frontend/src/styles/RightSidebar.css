@@ -1,0 +1,129 @@
+.right-sidebar-container {
+  width: 280px;
+  min-width: 280px;
+  background-color: #fff;
+  padding: 16px;
+  border-left: 1px solid #ddd;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.see-all-link {
+  font-size: 14px;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.news-section,
+.friend-requests-section,
+.contacts-section {
+  margin-bottom: 24px;
+}
+
+.news-item {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.news-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  margin-right: 8px;
+  object-fit: cover;
+}
+
+.news-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-info h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.news-info p {
+  margin: 4px 0;
+  font-size: 12px;
+  color: #606770;
+}
+
+.time-link {
+  font-size: 12px;
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.friend-request-item {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.friend-req-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.friend-req-actions {
+  margin-top: 8px;
+}
+
+.friend-req-actions button {
+  background-color: #e7f3ff;
+  border: 1px solid #1877f2;
+  color: #1877f2;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+.delete-btn {
+  background-color: #f0f2f5;
+  border: 1px solid #ccc;
+  color: #050505;
+}
+
+.contacts-section h3 {
+  margin-bottom: 8px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.contact-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.contact-name {
+  font-size: 14px;
+  color: #050505;
+  display: block;
+}
+
+.contact-status {
+  font-size: 12px;
+  color: #606770;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 1rem;
+}

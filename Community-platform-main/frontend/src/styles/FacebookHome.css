@@ -1,0 +1,11 @@
+.facebook-home-layout {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f2f5;
+}
+
+.facebook-home-content {
+  flex: 1;
+  margin: 0 24px;
+  min-height: 100vh;
+}

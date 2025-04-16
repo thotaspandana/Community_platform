@@ -1,0 +1,44 @@
+.left-nav-container {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.menu-section,
+.shortcuts-section {
+  margin-bottom: 20px;
+}
+
+.menu-section h4,
+.shortcuts-section h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #4b4f56;
+}
+
+.menu-item,
+.shortcut-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.menu-item:hover,
+.shortcut-item:hover {
+  background-color: #f0f2f5;
+}
+
+.menu-item.active,
+.shortcut-item.active {
+  background-color: #e0e0e0;
+}
+
+.menu-icon,
+.shortcut-icon {
+  margin-right: 12px;
+  font-size: 1.2rem;
+}

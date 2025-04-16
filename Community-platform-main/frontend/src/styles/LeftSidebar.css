@@ -1,0 +1,126 @@
+.left-sidebar-container {
+  width: 280px;
+  min-width: 280px;
+  background-color: #fff;
+  padding: 16px;
+  border-right: 1px solid #ddd;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.fb-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.search-container {
+  flex: 1;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.create-btn {
+  display: block;
+  width: 100%;
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.menu-section {
+  margin-bottom: 24px;
+}
+
+.menu-items-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.menu-item-container {
+  margin-bottom: 4px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  color: #050505;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 8px;
+}
+
+.menu-item:hover {
+  background-color: #f2f2f2;
+}
+
+.menu-item.active {
+  background-color: #e7f3ff;
+  color: #1877f2;
+  font-weight: 500;
+}
+
+.menu-icon {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.see-more {
+  font-weight: 600;
+}
+
+.shortcut-section h4 {
+  font-size: 14px;
+  color: #606770;
+  margin-bottom: 8px;
+}
+
+.shortcut-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 4px;
+  color: #050505;
+  transition: background-color 0.2s;
+  padding: 6px 0;
+}
+
+.shortcut-item:hover {
+  background-color: #f2f2f2;
+}
+
+.shortcut-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: #e4e6eb;
+  margin-right: 8px;
+  text-align: center;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 1rem;
+}
